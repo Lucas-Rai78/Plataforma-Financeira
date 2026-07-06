@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Financeiro</title>
+    <link rel="stylesheet" href="/frontend/css/global.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo-container">
+        <h1>Financeiro</h1>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="dashboard.html" class="active">Dashboard</a></li>
+        <li><a href="receitas.html">Receitas</a></li>
+        <li><a href="despesas.html">Despesas</a></li>
+      </ul>
+    </nav>
+
+    <main class="dashboard-container">
+      <header class="dashboard-header">
+        <h2>Visão Geral</h2>
+        <p>Acompanhe os indicadores financeiros do sistema.</p>
+      </header>
+
+      <section class="cards-container">
+        <article class="card">
+          <h3>Receitas</h3>
+          <p class="value positive">R$ 0,00</p>
+        </article>
+
+        <article class="card">
+          <h3>Despesas</h3>
+          <p class="value negative">R$ 0,00</p>
+        </article>
+
+        <article class="card">
+          <h3>Saldo Atual</h3>
+          <p class="value">R$ 0,00</p>
+        </article>
+      </section>
+
+      <section class="recent-transactions">
+        <h2>Últimas movimentações</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Descrição</th>
+              <th>Tipo</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>--/--/----</td>
+              <td>Nenhuma movimentação cadastrada</td>
+              <td>-</td>
+              <td>R$ 0,00</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

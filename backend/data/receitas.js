@@ -1,0 +1,26 @@
+const arrReceitas = [
+  { id: 1, data: '2026-06-25', descricao: 'Pizza de queijo', valor: 40.0 },
+  { id: 2, data: '2026-06-25', descricao: 'Hambúrguer', valor: 25.0 },
+  { id: 3, data: '2026-06-25', descricao: 'Sushi', valor: 60.0 },
+  { id: 4, data: '2026-06-25', descricao: 'Salada', valor: 15.0 },
+  { id: 5, data: '2026-06-25', descricao: 'Lasanha', valor: 35.0 },
+  { id: 6, data: '2026-06-26', descricao: 'Churrasco', valor: 80.0 },
+  { id: 7, data: '2026-06-26', descricao: 'Sorvete', valor: 20.0 },
+  { id: 8, data: '2026-06-26', descricao: 'Café da manhã', valor: 20.0 },
+  { id: 9, data: '2026-06-26', descricao: 'Almoço', valor: 50.0 },
+  { id: 10, data: '2026-06-26', descricao: 'Jantar', valor: 60.0 },
+  { id: 11, data: '2026-06-27', descricao: 'Lanche da tarde', valor: 15.0 },
+  { id: 12, data: '2026-06-27', descricao: 'Pizza de calabresa', valor: 45.0 },
+  { id: 13, data: '2026-06-27', descricao: 'Hambúrguer com batata frita', valor: 30.0 },
+  { id: 14, data: '2026-06-27', descricao: 'Sushi de salmão', valor: 70.0 },
+  { id: 15, data: '2026-06-27', descricao: 'Salada de frutas', valor: 25.0 },
+  { id: 16, data: '2026-06-28', descricao: 'Lasanha à bolonhesa', valor: 40.0 },
+  { id: 17, data: '2026-06-28', descricao: 'Churrasco misto', valor: 90.0 },
+  { id: 18, data: '2026-06-28', descricao: 'Sorvete de chocolate', valor: 25.0 },
+  { id: 19, data: '2026-06-28', descricao: 'Café da manhã completo', valor: 30.0 },
+  { id: 20, data: '2026-06-28', descricao: 'Almoço executivo', valor: 55.0 },
+  { id: 21, data: '2026-06-29', descricao: 'Jantar romântico', valor: 80.0 },
+  { id: 22, data: '2026-06-29', descricao: 'Lanche da tarde saudável', valor: 20.0 },
+]
+
+module.exports = arrReceitas

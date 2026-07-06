@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receitas</title>
+    <link rel="stylesheet" href="/frontend/css/global.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo-container">
+        <h1>Financeiro</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="receitas.html" class="active">Receitas</a></li>
+        <li><a href="despesas.html">Despesas</a></li>
+      </ul>
+    </nav>
+
+    <main class="dashboard-container">
+      <header class="dashboard-header">
+        <h2>Receitas</h2>
+        <p>Gerencie todas as entradas de dinheiro do sistema.</p>
+      </header>
+
+      <section class="actions">
+        <button class="btn">+ Nova Receita</button>
+      </section>
+
+      <section class="recent-transactions">
+        <h2>Lista de Receitas</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Descrição</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+
+          <tbody id="receitas-list">
+            <tr>
+              <td>--/--/----</td>
+              <td>Nenhuma receita cadastrada</td>
+              <td>R$ 0,00</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <script src="../js/receitas.js"></script>
+  </body>
+</html>
